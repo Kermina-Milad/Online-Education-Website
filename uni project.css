@@ -1,0 +1,503 @@
+    html {
+        width: 100%;
+        position: relative;
+        overflow-x: hidden;
+       }
+    /*Header*/
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        background-color: #FFFFFF;
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+        padding: 0px 5%;
+        letter-spacing: 3px;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        z-index: 1000;
+        margin-bottom: 20px;
+    }
+    
+    nav ul {
+        display: flex;
+        list-style-type: none;
+    }
+    
+    nav ul li a {
+        margin: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:rgb(37, 37, 72);
+        font-size: 15px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    
+    nav ul li a:hover {
+        color: rgb(255, 153, 0);
+    }
+    
+    .logo {
+        font-family: 'Anton', sans-serif;
+        color: rgb(255, 153, 0);
+        font-size: 40px;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+    
+   /*First Section*/
+    #imagefirstsection img {
+        width: 600px;
+        height: 700px;
+        float: right;
+        margin-top: 40px;
+        margin-right: 0px;
+        margin-bottom: -150px;
+    }
+    
+    #firstsection {
+        float: left;
+        margin-top: 200px;
+        margin-left: 40px;
+    }
+    
+    #firstsection h2 {
+        color: rgb(4, 4, 60);
+        font-size: 70px;
+        font-weight: bolder;
+        margin: 0px;
+    }
+    
+    #firstsection p {
+        color: #434253;
+        font-size: large;
+        margin-bottom: 20px;
+    }
+    
+    #firstsection button {
+        border-radius: 40px;
+        border: rgb(4, 4, 60);
+        width: 130px;
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 80px;
+        background-color: rgb(230, 220, 217);
+        font-size: medium;
+        color: rgb(4, 4, 60);
+    }
+    
+    #firstsection button:hover {
+        background-color: rgb(255, 153, 0);
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+
+    /*Second Section*/
+    #secondsection {
+        position: relative;
+        float: left;
+        margin-top: 300px;
+        margin-left: 60px;
+        padding: 20px;
+    }
+    
+    #secondsection h2 {
+        font-family: 'Varela Round', sans-serif;
+        font-size: 50px;
+        color: rgb(4, 4, 60);
+        text-align: center;
+    }
+    
+    #secondsection p {
+        font-size: medium;
+        text-align: center;
+        margin-top: -20px;
+        color: rgb(4, 4, 60);
+    }
+    
+    #secondsection button {
+        border-radius: 40px;
+        border: rgb(4, 4, 60);
+        width: 130px;
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 80px;
+        background-color: rgb(230, 220, 217);
+        font-size: medium;
+        background-color: rgb(255, 153, 0);
+        color: #FFFFFF;
+    }
+    
+    #secondsection button:hover {
+        cursor: pointer;
+    }
+    .secondsection{
+        width: 250px;
+        height: 300px;
+        float: left;
+        margin-top: 300px;
+        margin-left: 60px;
+        margin-right: 20px;
+        text-align: center;
+        color: rgb(4, 4, 60);
+        padding: 20px;
+    }
+    .secondsection img{
+        height: 100px;
+        width: 100px;
+        
+    }
+    .secondsection:hover{
+        border: solid rgb(255, 153, 0);
+        cursor: pointer;
+        }
+
+         /*third Section*/
+        #thirdsectionimg img{
+            float: left;
+            width: 700px;
+            height: 500px;
+            margin-left: -250px;
+            margin-top: 100px;
+         }
+
+     #thirdsection{
+   float: left;
+    width: 600px;
+    position:absolute;
+    top: 220px;
+    left: 500px;
+    height: 600px;
+}
+    
+#line{
+    width: 60px;
+    height: 3px;
+    background-color:rgb(255, 153, 0) ;
+    display: inline-block;
+    border-radius: 20px;
+    }
+
+#thirdsection span{
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(4, 4, 60);
+    }
+
+#thirdsection h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(4, 4, 60);
+    margin-top: 10px;
+    margin-bottom: 5px;
+    }
+
+#thirdsection p{
+    font-size: 17px;
+    color: rgb(4, 4, 60);
+    text-align: center;
+}
+
+#thirdsection button{
+    border-radius: 40px;
+    border: rgb(4, 4, 60);
+    width: 130px;
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 80px;
+        background-color: rgb(230, 220, 217);
+        font-size: medium;
+        background-color: rgb(255, 153, 0);
+        color: #FFFFFF;
+        position: relative;
+        left: 150px;
+        margin-top: 0px;
+        }
+
+#thirdsection button:hover{
+    cursor: pointer;
+}
+
+#thirdsectionstatic{
+    position:absolute;
+    top: 1300px;
+    left: 300px;
+   }
+
+   /*Fourth Section*/
+   #titlefourthsection{ 
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(4, 4, 60);
+    position: absolute;
+    top: 2000px;
+    left: 520px;
+    }
+
+   #secondline{
+    width: 365px;
+    height: 3px;
+    background-color:rgb(255, 153, 0) ;
+    border-radius: 30px;
+    position: absolute;
+    top: 155px;
+    left: 83px;
+    display: block;
+   }
+
+   #fourthcontainer{
+    position: absolute;
+    top: 2220px;
+    left: 60px;
+}
+
+.fourthsection img{
+    width: 300px;
+    height: 200px;
+}
+
+.fourthsection {
+    float: left;
+    width: 380px;
+    height: 350px;
+    text-align: center;
+    margin-left: 40px;
+    color: rgb(4, 4, 60);
+    border: solid rgb(255, 111, 0) 1px;
+   border-radius: 20px;
+   padding: 20px;
+}
+
+.fourthsection h2:hover{
+   color: rgb(4, 4, 60);
+    cursor: pointer;
+}
+
+.fourthsection h2{
+    color:rgb(255, 111, 0) ;
+}
+
+/*Fifth Section*/
+#fifthsectionimg img{
+    float: right;
+    position: absolute;
+    top: 2800px;
+    right: 50px;
+    height: 600px;
+}
+
+#thirdline{
+    width: 60px;
+    height: 3px;
+    background-color:rgb(255, 153, 0) ;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+#fifthsection{
+float: left;
+    position: absolute;
+    top: 2950px;
+    left: 100px;
+    width: 700px;
+}
+
+#fifthsection span{
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(4, 4, 60);
+    }
+
+#fifthsection h2{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 50px;
+    color: rgb(4, 4, 60);
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#fifthsection p{
+    font-size: 17px;
+    color: rgb(4, 4, 60);
+    text-align: center;
+    }
+
+#fifthcontainer{
+    float: left;
+    position: absolute;
+    top: 3170px;
+    left: 100px;
+    width: 700px;
+    text-align: center;
+    }
+
+.partfifth img{
+    border:  solid #434253 1px;
+    border-radius: 40px;
+    padding: 7px;
+    background-color:rgb(255, 111, 0);
+width: 40px;
+height:40px;
+margin-bottom: -7px;
+}
+
+.partfifth{
+    width: 200px;
+    display: inline-block;
+}
+
+.partfifth p{
+    font-size: 15px;
+    color: rgb(4, 4, 60);
+    font-weight: bold;
+    }
+
+    .partfifth:hover{
+        cursor: pointer;
+    }
+
+    .partfifth img:hover{
+        background-color:#56556c ;
+    }
+
+    /*Sixth Section*/
+    #sixthsection{
+       position: absolute;
+        top: 3600px;
+        left: 600px;
+    }
+
+    #sixthsection h2{
+        font-family: 'Varela Round', sans-serif;
+    font-size: 50px;
+    color: rgb(4, 4, 60);
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    }
+
+    #fourthline{
+        width: 90px;
+        height: 3px;
+        background-color:rgb(255, 153, 0) ;
+        border-radius: 20px;
+        position: absolute;
+        top: 80px;
+        left: 122px;
+    }
+
+    #gallerycontainer{
+       position: absolute;
+       top: 3750px;
+    }
+
+    div.gallery {
+        margin: 10px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 350px;
+        height: 300px;
+        
+      }
+      
+      div.gallery:hover {
+        border: 2px solid #777;
+       }
+      
+      div.gallery img {
+        width: 100%;
+        height: 70%;
+      }
+      
+      div.desc {
+        padding: 15px;
+        text-align: center;
+        color: rgb(4, 4, 60);
+        font-size: large;
+      }
+
+      /*Footer*/
+      #footer{
+        width: 120%;
+        height: 250px;
+        background-color: #f4f4fb;
+        position: absolute;
+        top: 500px;
+      }
+
+#firstfooter{
+    float: left;
+    width: 300px;
+    text-align: center;
+    margin: 20px;
+    margin-right: 270px;
+}
+
+#firstfooter h2 a{
+    font-family: 'Anton', sans-serif;
+    color: rgb(255, 153, 0);
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#firstfooter p{
+    color: rgb(61, 61, 65);
+    font-size: medium; 
+    font-family: 'Anton', sans-serif;
+}
+
+#secondfooter{
+    float: left;
+    width: 300px;
+    text-align: center;
+    margin-right: 270px;
+}
+
+#secondfooter h2{
+    font-family: 'Anton', sans-serif;
+    color:  rgb(4, 4, 60);
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+#secondfooter p{
+    color: rgb(61, 61, 65);
+    font-size: medium; 
+    font-family: 'Anton', sans-serif;
+}
+
+#icons a{
+    color:  rgb(4, 4, 60);
+    margin: 10px;
+}
+
+#thirdfooter{
+    float: left;
+    width: 300px;
+    text-align: center;
+} 
+
+#thirdfooter h2{
+    font-family: 'Anton', sans-serif;
+    color:  rgb(4, 4, 60);
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+#thirdfooter table{
+    text-align: center;
+    color:  rgb(4, 4, 60);
+}
+
+
